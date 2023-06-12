@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv')
 dotenv.config();
 const cors = require('cors');
+const movieRouter = require('./routes/movieRouter');
 
 
 mongoose.connect(`mongodb+srv://timzhusolo:soloproj1@cluster0.duhi5hi.mongodb.net/?retryWrites=true&w=majority`); // your database string
@@ -16,11 +17,12 @@ mongoose.connection.once('open', () => {
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded( {extended: true} ));
-const router = express.Router();
 
 app.get('/', (req, res) => {
     return res.status(200).sendFile(path.resolve(__dirname, '../client/index.html'));
   });
+
+app.use('/create', movieRouter);
 
 app.get('/styles.css', (req, res)=>{
   res.setHeader('Content-Type', 'text/css')

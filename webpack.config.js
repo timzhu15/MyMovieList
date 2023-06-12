@@ -19,7 +19,8 @@ module.exports = {
     proxy: {
       '/**' :'http://localhost:3000',
       '/build' : 'http://localhost:3000',
-      '/api': 'http://localhost:3000'
+      '/api': 'http://localhost:3000',
+      '/create': 'http://localhost:3000'
     },
     // but compress: true should minify your bundle which actually you don't want if you are debugging because it makesthings harder to read
     compress: true,

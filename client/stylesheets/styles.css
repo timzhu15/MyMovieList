@@ -1,0 +1,154 @@
+* {
+  background-color: rgb(41, 41, 41);
+}
+
+h1, h3 {
+  display: grid;
+  justify-items: center;
+  color: rgb(208, 206, 206);
+}
+
+#getStartedButton {
+  display: grid;
+  justify-items: center;
+  color: rgb(41, 41, 41);
+  background-color: rgb(208, 206, 206);
+  border-radius: 12px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  cursor: pointer;
+  text-shadow: rgb(227, 222, 202) 1px 0 10px;
+}
+
+#getStartedButton:hover {
+  background-color: black;
+  color: white;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+#homepage {
+  display: grid;
+  justify-items: center;
+}
+
+#movieCreatorDiv {
+  display: grid;
+  justify-items: center;
+}
+
+#addMovieInputs {
+  border-color: red;
+  background-color:rgb(208, 206, 206);
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  padding: 2px 3px 2px 3px;
+  /* text-shadow: rgb(66, 66, 66) 1px 0 10px; */
+}
+
+#addMovieButton {
+  color: rgb(219, 208, 208);
+  background-color: rgb(43, 137, 203);
+  border-radius: 4px;
+  padding: 5px 7px 5px 7px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  text-shadow: rgb(255, 0, 0) 1px 0 15px;
+}
+
+#addMovieButton:hover {
+  background-color: black;
+  color: white;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+ul {
+  background-color:rgb(219, 208, 208);
+  text-align: left;
+  border-radius: 5px;
+}
+
+li {
+  background-color:rgb(219, 208, 208);
+  color:rgb(39, 39, 39);
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  align-items: center;
+}
+
+label {
+  background-color:rgb(219, 208, 208);
+}
+
+#movieList {
+  /* background-color:rgb(219, 208, 208); */
+  align-items: left;
+  margin-top: 25px;
+  padding: 2px 3px 2px 3px;
+}
+
+#deleteButton{
+  color: rgb(219, 208, 208);
+  background-color: rgb(203, 43, 43);
+  border-radius: 4px;
+  padding: 5px 7px 5px 7px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 5px 5px 5px;
+  text-shadow: rgb(255, 0, 0) 1px 0 15px;
+}
+
+#deleteButton:hover {
+  background-color:rgb(79, 0, 0)
+}
+
+#reviewButton {
+  color: rgb(219, 208, 208);
+  background-color: rgb(32, 140, 15);
+  border-radius: 4px;
+  padding: 5px 7px 5px 7px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 5px 5px 5px;
+  text-shadow: rgb(255, 0, 0) 1px 0 15px;
+}
+
+#reviewButton:hover {
+  background-color:rgb(14, 68, 6)
+}
+
+#reviewButtonPost {
+  color: rgb(219, 208, 208);
+  background-color: rgb(5, 84, 204);
+  border-radius: 4px;
+  padding: 5px 7px 5px 7px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 5px 5px 5px;
+  text-shadow: rgb(255, 0, 0) 1px 0 15px;
+}
+
+#reviewButtonPost:hover {
+  background-color:rgb(5, 50, 117);
+}
+
+#reviewInput {
+  border-color: red;
+  background-color:rgb(228, 228, 228);
+  border: none;
+  border-radius: 3px;
+  padding: 2px 3px 2px 3px;
+  color:rgb(39, 39, 39);
+  margin-left: 10px;
+  margin-right: 5px;
+  font-family: monospace;
+  /* text-shadow: rgb(66, 66, 66) 1px 0 10px; */
+}
+
+#reviewDiv {
+  background-color:rgb(219, 208, 208);
+  margin: atuo;
+  display: flex;
+}
